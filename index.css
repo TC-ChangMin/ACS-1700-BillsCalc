@@ -1,0 +1,17 @@
+.bill-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    text-align: center;
+    padding: 10px;
+}
+/*===== Removes the ugly top/bot arrows =====*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
